@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1888.8736842105263" y="480.0">Controladores.ControladorReportes</node>
+    <node x="1412.3736842105263" y="188.0">Negocio.Reclamo.Reclamo</node>
+    <node x="466.25" y="829.0">Negocio.Reclamo.InterfacesReclamo.FormaReclamo</node>
+    <node x="1087.25" y="240.0">Negocio.Productos.Producto</node>
+    <node x="717.0" y="1086.0">Negocio.Reporte.TiempoPromedioRespuestaPorResponsable</node>
+    <node x="419.75" y="1002.0">Negocio.Reporte.Interfaces.TipoReporte</node>
+    <node x="1699.3736842105263" y="279.0">Controladores.ControladorCliente</node>
+    <node x="955.1236842105263" y="685.0">Negocio.Usuarios.ResponsableFacturacion</node>
+    <node x="809.1236842105263" y="685.0">Negocio.Usuarios.Administrador</node>
+    <node x="1351.3736842105263" y="620.0">Controladores.ControladorSingleton</node>
+    <node x="192.0" y="923.0">Negocio.Reclamo.ReclamoFacturacion</node>
+    <node x="692.0" y="923.0">Negocio.Reclamo.ReclamoCantidades</node>
+    <node x="1571.4499999999998" y="0.0">Negocio.Externos.Cliente</node>
+    <node x="490.0" y="1086.0">Negocio.Reporte.CantidadReclamosPorMes</node>
+    <node x="335.0" y="685.0">Negocio.Usuarios.CallCenter</node>
+    <node x="558.8684210526316" y="292.0">Negocio.Usuarios.Usuario</node>
+    <node x="250.0" y="1086.0">Negocio.Reporte.ClientesConMayorReclamos</node>
+    <node x="876.0" y="923.0">Negocio.Reclamo.ReclamoFaltantes</node>
+    <node x="0.0" y="923.0">Negocio.Reclamo.CompuestoReclamos</node>
+    <node x="1983.3736842105263" y="292.0">Negocio.Reporte.Reporte</node>
+    <node x="748.75" y="480.0">Controladores.ControladorUsuarios</node>
+    <node x="1038.75" y="480.0">Controladores.ControladorProductos</node>
+    <node x="0.0" y="685.0">Negocio.Usuarios.Consulta</node>
+    <node x="1404.8736842105263" y="480.0">Controladores.ControladorReclamos</node>
+    <node x="0.0" y="1086.0">Negocio.Reporte.RankingTratamientoReclamos</node>
+    <node x="379.0" y="923.0">Negocio.Reclamo.ReclamoProducto</node>
+    <node x="406.36842105263156" y="480.0">Negocio.Usuarios.RolUsuario</node>
+    <node x="113.0" y="685.0">Negocio.Usuarios.ResponsableZonaEntrega</node>
+    <node x="549.0" y="923.0">Negocio.Reclamo.ReclamoZona</node>
+    <node x="461.0" y="685.0">Negocio.Usuarios.ResponsableDistribucion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Controladores.ControladorSingleton" target="Controladores.ControladorReportes">
+      <point x="155.5999999999999" y="-82.0" />
+      <point x="1701.4736842105262" y="600.0" />
+      <point x="2026.8736842105263" y="600.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.ReclamoZona" target="Negocio.Reclamo.InterfacesReclamo.FormaReclamo">
+      <point x="0.0" y="-17.0" />
+      <point x="610.5" y="903.0" />
+      <point x="543.25" y="903.0" />
+      <point x="11.0" y="17.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.CompuestoReclamos" target="Negocio.Reclamo.InterfacesReclamo.FormaReclamo">
+      <point x="0.0" y="-17.0" />
+      <point x="86.0" y="883.0" />
+      <point x="477.25" y="883.0" />
+      <point x="-55.0" y="17.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.Consulta" target="Negocio.Usuarios.RolUsuario">
+      <point x="0.0" y="-17.0" />
+      <point x="46.5" y="580.0" />
+      <point x="419.36842105263156" y="580.0" />
+      <point x="-65.0" y="30.0" />
+    </edge>
+    <edge source="Negocio.Reporte.TiempoPromedioRespuestaPorResponsable" target="Negocio.Reporte.Interfaces.TipoReporte">
+      <point x="0.0" y="-17.0" />
+      <point x="876.0" y="1056.0" />
+      <point x="519.5" y="1056.0" />
+      <point x="42.75" y="17.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.RolUsuario" target="Negocio.Usuarios.Usuario">
+      <point x="0.0" y="-30.0" />
+      <point x="484.36842105263156" y="455.0" />
+      <point x="579.8684210526316" y="455.0" />
+      <point x="-21.0" y="17.0" />
+    </edge>
+    <edge source="Controladores.ControladorReclamos" target="Negocio.Reclamo.Reclamo">
+      <point x="0.0" y="-30.0" />
+      <point x="0.0" y="121.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.ReclamoCantidades" target="Negocio.Reclamo.InterfacesReclamo.FormaReclamo">
+      <point x="0.0" y="-17.0" />
+      <point x="774.0" y="893.0" />
+      <point x="565.25" y="893.0" />
+      <point x="33.0" y="17.0" />
+    </edge>
+    <edge source="Controladores.ControladorCliente" target="Negocio.Externos.Cliente">
+      <point x="0.0" y="-30.0" />
+      <point x="1831.3736842105263" y="163.0" />
+      <point x="1727.4499999999998" y="163.0" />
+      <point x="52.0" y="69.0" />
+    </edge>
+    <edge source="Controladores.ControladorSingleton" target="Controladores.ControladorUsuarios">
+      <point x="-155.60000000000014" y="-82.0" />
+      <point x="1390.2736842105262" y="570.0" />
+      <point x="883.75" y="570.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="Negocio.Reporte.RankingTratamientoReclamos" target="Negocio.Reporte.Interfaces.TipoReporte">
+      <point x="0.0" y="-17.0" />
+      <point x="115.0" y="1056.0" />
+      <point x="434.0" y="1056.0" />
+      <point x="-42.75" y="17.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.Administrador" target="Negocio.Usuarios.RolUsuario">
+      <point x="0.0" y="-17.0" />
+      <point x="872.1236842105263" y="590.0" />
+      <point x="523.3684210526316" y="590.0" />
+      <point x="39.0" y="30.0" />
+    </edge>
+    <edge source="Controladores.ControladorProductos" target="Negocio.Productos.Producto">
+      <point x="0.0" y="-30.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="Controladores.ControladorUsuarios" target="Negocio.Usuarios.Usuario">
+      <point x="0.0" y="-30.0" />
+      <point x="883.75" y="455.0" />
+      <point x="621.8684210526316" y="455.0" />
+      <point x="21.0" y="17.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.ReclamoProducto" target="Negocio.Reclamo.InterfacesReclamo.FormaReclamo">
+      <point x="0.0" y="-17.0" />
+      <point x="454.0" y="903.0" />
+      <point x="521.25" y="903.0" />
+      <point x="-11.0" y="17.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.ResponsableFacturacion" target="Negocio.Usuarios.RolUsuario">
+      <point x="0.0" y="-17.0" />
+      <point x="1052.1236842105263" y="580.0" />
+      <point x="549.3684210526316" y="580.0" />
+      <point x="65.0" y="30.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.ReclamoFacturacion" target="Negocio.Reclamo.InterfacesReclamo.FormaReclamo">
+      <point x="0.0" y="-17.0" />
+      <point x="275.5" y="893.0" />
+      <point x="499.25" y="893.0" />
+      <point x="-33.0" y="17.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.ResponsableZonaEntrega" target="Negocio.Usuarios.RolUsuario">
+      <point x="0.0" y="-17.0" />
+      <point x="214.0" y="590.0" />
+      <point x="445.36842105263156" y="590.0" />
+      <point x="-39.0" y="30.0" />
+    </edge>
+    <edge source="Controladores.ControladorSingleton" target="Controladores.ControladorReclamos">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="Controladores.ControladorReportes" target="Negocio.Reporte.Reporte">
+      <point x="0.0" y="-30.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="Controladores.ControladorSingleton" target="Controladores.ControladorCliente">
+      <point x="77.79999999999995" y="-82.0" />
+      <point x="1623.6736842105263" y="590.0" />
+      <point x="1831.3736842105263" y="590.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.ReclamoFaltantes" target="Negocio.Reclamo.InterfacesReclamo.FormaReclamo">
+      <point x="0.0" y="-17.0" />
+      <point x="952.5" y="883.0" />
+      <point x="587.25" y="883.0" />
+      <point x="55.0" y="17.0" />
+    </edge>
+    <edge source="Negocio.Reporte.CantidadReclamosPorMes" target="Negocio.Reporte.Interfaces.TipoReporte">
+      <point x="0.0" y="-17.0" />
+      <point x="593.5" y="1066.0" />
+      <point x="491.0" y="1066.0" />
+      <point x="14.25" y="17.0" />
+    </edge>
+    <edge source="Negocio.Reclamo.Reclamo" target="Negocio.Externos.Cliente">
+      <point x="0.0" y="-121.0" />
+      <point x="1545.8736842105263" y="163.0" />
+      <point x="1623.4499999999998" y="163.0" />
+      <point x="-52.0" y="69.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.CallCenter" target="Negocio.Usuarios.RolUsuario">
+      <point x="0.0" y="-17.0" />
+      <point x="388.0" y="600.0" />
+      <point x="471.36842105263156" y="600.0" />
+      <point x="-13.0" y="30.0" />
+    </edge>
+    <edge source="Negocio.Reporte.ClientesConMayorReclamos" target="Negocio.Reporte.Interfaces.TipoReporte">
+      <point x="0.0" y="-17.0" />
+      <point x="360.0" y="1066.0" />
+      <point x="462.5" y="1066.0" />
+      <point x="-14.25" y="17.0" />
+    </edge>
+    <edge source="Negocio.Usuarios.ResponsableDistribucion" target="Negocio.Usuarios.RolUsuario">
+      <point x="0.0" y="-17.0" />
+      <point x="558.5" y="600.0" />
+      <point x="497.36842105263156" y="600.0" />
+      <point x="13.0" y="30.0" />
+    </edge>
+    <edge source="Controladores.ControladorSingleton" target="Controladores.ControladorProductos">
+      <point x="-77.80000000000018" y="-82.0" />
+      <point x="1468.0736842105262" y="560.0" />
+      <point x="1183.75" y="560.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.47505720823798625" x="1082.5" y="560.0" />
+  <SelectedNodes>
+    <node>Controladores.ControladorCliente</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
