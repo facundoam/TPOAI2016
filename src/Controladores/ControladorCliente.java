@@ -10,10 +10,5 @@ import java.util.ArrayList;
 public class ControladorCliente {
     private ArrayList<Cliente> listaClientes;
 
-    public ControladorCliente(){
-        listaClientes = new ArrayList<>();
-        //Peron vive
-    }
-
 }
 

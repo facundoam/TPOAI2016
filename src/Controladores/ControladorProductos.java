@@ -1,8 +1,12 @@
 package Controladores;
 
+import Negocio.Productos.Producto;
+
+import java.util.ArrayList;
+
 /**
  * @author farias on 29/08/16.
  */
 public class ControladorProductos {
-    private java.util.ArrayList<Negocio.Productos.Producto> listaProductos;
+    private ArrayList<Producto> listaProductos;
 }

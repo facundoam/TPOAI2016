@@ -1,8 +1,12 @@
 package Controladores;
 
+import Negocio.Usuarios.Usuario;
+
+import java.util.ArrayList;
+
 /**
  * @author farias on 29/08/16.
  */
 public class ControladorUsuarios {
-    private java.util.ArrayList<Negocio.Usuarios.Usuario> listaUsuarios;
+    private ArrayList<Usuario> listaUsuarios;
 }
