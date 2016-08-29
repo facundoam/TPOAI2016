@@ -1,4 +1,4 @@
-package Negocio.Reporte;
+package Negocio.Reporte.Interfaces;
 
 /**
  * @author farias on 29/08/16.

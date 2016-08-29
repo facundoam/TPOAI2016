@@ -1,5 +1,7 @@
 package Negocio.Reporte;
 
+import Negocio.Reporte.Interfaces.TipoReporte;
+
 /**
  * @author farias on 29/08/16.
  */
